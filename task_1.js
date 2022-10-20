@@ -1,7 +1,8 @@
 let login = prompt('Who`s there?', 'login');
-if (login == "Admin"){
+if (login == "Admin") {
     let password = prompt('Password?', 'password');
-    if (password == "TheMaster"){
+    
+    if (password == "TheMaster") {
         alert("Welcome!");
     }
     else if (password === null){
@@ -11,7 +12,8 @@ if (login == "Admin"){
         alert("Wrong password");
     }
 }
-else if (login === null){
+
+else if (login === null) {
     alert("Canceled");
 }
 else {
